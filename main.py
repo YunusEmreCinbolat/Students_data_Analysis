@@ -9,7 +9,7 @@ pd.set_option('display.width',500)
 #combine with different dataset
 
 #https://www.kaggle.com/datasets/joebeachcapital/students-performance
-df=pd.read_csv("DATA.csv")
+df=pd.read_csv("dataset/DATA.csv")
 print(df.head(10000000))
 
 #ayrıntılı analiz
